@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
             
             {isSubmitted && (
               <div className="form-success">
-                <FaPaperPlane />
+                <FaPaperPlane size={20} />
                 <p>Mesajınız başarıyla gönderildi!</p>
               </div>
             )}
@@ -172,7 +172,7 @@ const Contact: React.FC = () => {
               
               <button type="submit" className="btn btn-primary submit-btn">
                 <span>Gönder</span>
-                <FaPaperPlane />
+                <FaPaperPlane size={20} />
               </button>
             </form>
           </motion.div>
