@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: NODE_OPTIONS=--openssl-legacy-provider CI=false npm run build
+        run: NODE_OPTIONS=--openssl-legacy-provider GENERATE_SOURCEMAP=false TSC_COMPILE_ON_ERROR=true CI=false npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
