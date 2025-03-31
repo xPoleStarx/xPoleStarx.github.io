@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import * as FaIcons from 'react-icons/fa';
+import { FaPaperPlane, FaMapMarkerAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
 import '../styles/Contact.scss';
 
 const Contact: React.FC = () => {
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                {React.createElement(FaIcons.FaEnvelope, { size: 20 })}
+                <FaEnvelope size={20} />
               </div>
               <div className="info-content">
                 <h4>E-posta</h4>
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                {React.createElement(FaIcons.FaMapMarkerAlt, { size: 20 })}
+                <FaMapMarkerAlt size={20} />
               </div>
               <div className="info-content">
                 <h4>Lokasyon</h4>
@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                {React.createElement(FaIcons.FaGlobe, { size: 20 })}
+                <FaGlobe size={20} />
               </div>
               <div className="info-content">
                 <h4>Web Sitesi</h4>
@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
             
             {isSubmitted && (
               <div className="form-success">
-                {React.createElement(FaIcons.FaPaperPlane, { size: 20 })}
+                <FaPaperPlane size={20} />
                 <p>Mesajınız başarıyla gönderildi!</p>
               </div>
             )}
@@ -172,7 +172,7 @@ const Contact: React.FC = () => {
               
               <button type="submit" className="btn btn-primary submit-btn">
                 <span>Gönder</span>
-                {React.createElement(FaIcons.FaPaperPlane, { size: 20 })}
+                <FaPaperPlane size={20} />
               </button>
             </form>
           </motion.div>
