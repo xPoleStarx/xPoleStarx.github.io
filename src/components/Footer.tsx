@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
           <div className="footer-links-column">
             <h3>İletişim</h3>
             <ul>
-              <li>info@astroapp.com</li>
-              <li>İstanbul, Türkiye</li>
+              <li>seyfullahkorkmaz115@gmail.com</li>
+              <li>Muğla, Türkiye</li>
             </ul>
           </div>
           

@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
               </div>
               <div className="info-content">
                 <h4>E-posta</h4>
-                <p>info@astroapp.com</p>
+                <p>seyfullahkorkmaz115@gmail.com</p>
               </div>
             </div>
             
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
               </div>
               <div className="info-content">
                 <h4>Lokasyon</h4>
-                <p>İstanbul, Türkiye</p>
+                <p>Muğla, Türkiye</p>
               </div>
             </div>
             
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
               </div>
               <div className="info-content">
                 <h4>Web Sitesi</h4>
-                <p>www.astroapp.com</p>
+                <p>www.xpolestarx.github.io</p>
               </div>
             </div>
             

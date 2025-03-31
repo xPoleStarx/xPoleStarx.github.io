@@ -114,7 +114,57 @@ const Features: React.FC = () => {
           
           <div className="features-image">
             <div className="image-container">
-              <div className="app-screen"></div>
+              <div className="app-screen">
+                <div className="app-nav">
+                  <div className="app-logo"></div>
+                  <div className="app-menu">
+                    <div className="menu-dot"></div>
+                    <div className="menu-dot"></div>
+                    <div className="menu-dot"></div>
+                  </div>
+                </div>
+                <div className="app-content">
+                  <div className="app-card">
+                    <div className="card-icon"></div>
+                    <div className="card-content">
+                      <div className="card-title"></div>
+                      <div className="card-text"></div>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <div className="card-icon"></div>
+                    <div className="card-content">
+                      <div className="card-title"></div>
+                      <div className="card-text"></div>
+                    </div>
+                  </div>
+                  <div className="app-card">
+                    <div className="card-icon"></div>
+                    <div className="card-content">
+                      <div className="card-title"></div>
+                      <div className="card-text"></div>
+                    </div>
+                  </div>
+                  <div className="app-activity">
+                    <div className="activity-title"></div>
+                    <div className="activity-chart">
+                      <div className="chart-bar" style={{ height: '60%' }}></div>
+                      <div className="chart-bar" style={{ height: '30%' }}></div>
+                      <div className="chart-bar" style={{ height: '80%' }}></div>
+                      <div className="chart-bar" style={{ height: '40%' }}></div>
+                      <div className="chart-bar" style={{ height: '70%' }}></div>
+                      <div className="chart-bar" style={{ height: '50%' }}></div>
+                      <div className="chart-bar" style={{ height: '90%' }}></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="app-nav-bottom">
+                  <div className="nav-item"></div>
+                  <div className="nav-item"></div>
+                  <div className="nav-item"></div>
+                  <div className="nav-item"></div>
+                </div>
+              </div>
             </div>
           </div>
         </motion.div>
