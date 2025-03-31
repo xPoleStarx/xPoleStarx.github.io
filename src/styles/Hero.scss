@@ -1,0 +1,147 @@
+.hero {
+  position: relative;
+  padding: 5rem 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(0,230,77,0.1) 0%, rgba(76,175,80,0.2) 100%);
+  
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
+  
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
+  
+  &-content {
+    z-index: 2;
+    
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+      }
+      
+      span {
+        font-weight: 800;
+        color: var(--primary-color);
+      }
+    }
+    
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: var(--text-color);
+      opacity: 0.9;
+      line-height: 1.6;
+    }
+  }
+  
+  &-cta {
+    display: flex;
+    gap: 1rem;
+    
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+    
+    @media (max-width: 576px) {
+      flex-direction: column;
+      width: 100%;
+      max-width: 280px;
+      margin: 0 auto;
+    }
+    
+    .btn {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+  &-image {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    
+    .phone-mockup {
+      position: relative;
+      width: 280px;
+      height: 580px;
+      border-radius: 40px;
+      background-color: #222;
+      padding: 10px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        height: 25px;
+        background-color: #222;
+        border-radius: 0 0 15px 15px;
+        z-index: 3;
+      }
+      
+      .phone-screen {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 30px;
+        overflow: hidden;
+        
+        .app-placeholder {
+          width: 100%;
+          height: 100%;
+          background-color: var(--primary-dark);
+          display: flex;
+          flex-direction: column;
+          
+          .app-header {
+            height: 80px;
+            background: linear-gradient(to right, var(--primary-color), var(--primary-light));
+          }
+          
+          .app-content {
+            flex: 1;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            overflow: hidden;
+            
+            .app-card {
+              height: 120px;
+              background-color: rgba(255, 255, 255, 0.2);
+              border-radius: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  &-shape {
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: linear-gradient(to right, var(--primary-color), var(--primary-light));
+    opacity: 0.1;
+    z-index: 1;
+  }
+} 
