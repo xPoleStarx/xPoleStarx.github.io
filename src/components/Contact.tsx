@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                <FaEnvelope />
+                <FaEnvelope size={20} />
               </div>
               <div className="info-content">
                 <h4>E-posta</h4>
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                <FaMapMarkerAlt />
+                <FaMapMarkerAlt size={20} />
               </div>
               <div className="info-content">
                 <h4>Lokasyon</h4>
@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
             
             <div className="info-item">
               <div className="info-icon">
-                <FaGlobe />
+                <FaGlobe size={20} />
               </div>
               <div className="info-content">
                 <h4>Web Sitesi</h4>
