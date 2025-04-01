@@ -55,7 +55,7 @@ const Market: React.FC = () => {
               <div className="stat">
                 <h4>Küresel</h4>
                 <ul>
-                  <li>2025'e kadar 30 milyar dolarlık spor teknolojisi pazarı</li>
+                  <li>2026'ya kadar 30 milyar dolarlık spor teknolojisi pazarı</li>
                   <li>Yıllık %15 büyüyen dijital spor platformları</li>
                 </ul>
               </div>
